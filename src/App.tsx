@@ -1,15 +1,19 @@
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Experiences from "./components/Experiences";
 
 export default function App() {
   	return (
-    	<>
+		<>
 			<div className="p-5 md:px-[15%]">
-				<Navbar/>
-				<Home/>
+				<Navbar />
+				<Home />
 			</div>
-			<About/>
+			<About />
+			<div className="p-5 md:px-[15%]">
+				<Experiences />
+			</div>
 		</>
-  	)
+	);
 }
