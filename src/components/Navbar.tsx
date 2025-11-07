@@ -13,22 +13,22 @@ const Navbar = () => {
 
 			<ul className="hidden md:flex space-x-4">
 				<li>
-					<a className="btn btn-sm btn-ghost" href="#">
+					<a className="btn btn-sm btn-ghost" href="#Home">
 						Accueil
 					</a>
 				</li>
 				<li>
-					<a className="btn btn-sm btn-ghost" href="#">
+					<a className="btn btn-sm btn-ghost" href="#About">
 						À propos
 					</a>
 				</li>
 				<li>
-					<a className="btn btn-sm btn-ghost" href="#">
+					<a className="btn btn-sm btn-ghost" href="#Experiences">
 						Mes experiences
 					</a>
 				</li>
 				<li>
-					<a className="btn btn-sm btn-ghost" href="#">
+					<a className="btn btn-sm btn-ghost" href="#Projects">
 						Mes projets
 					</a>
 				</li>
