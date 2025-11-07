@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 export default function App() {
   	return (
@@ -16,6 +17,7 @@ export default function App() {
 				<Experiences />
 				<Projects/>
 			</div>
+			<Footer/>
 		</>
 	);
 }
