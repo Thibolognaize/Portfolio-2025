@@ -1,4 +1,4 @@
-import { LetterText } from "lucide-react";
+import { BriefcaseBusiness, GraduationCap, LetterText } from "lucide-react";
 
 export const aboutSection = [
 	{
@@ -6,14 +6,14 @@ export const aboutSection = [
 		title: "Etudiant à Epitech",
 		description:
 			"J'ai commencé Epitech en septembre 2025 avec l'objectif de me dépasser et devenir un développeur compétant et pleinement autonome",
-		icon: <LetterText className="text-accent scale-150" />,
+		icon: <GraduationCap className="text-accent scale-150" />,
 	},
 	{
 		id: 2,
 		title: "Alternant Dev FullStack chez Augefi",
 		description:
-			"Depuis plus d'une année, je suis présent aux côtés de l'équipe informatique du cabinet comptable Augefi. Ma mission principale est d'améliorer le quotidient de nos collaborateur à travers la disposition de divers outils/plateformes : Web, Automatisations, Scripts, BDD...",
-		icon: <LetterText className="text-accent scale-150" />,
+			"Depuis plus d'une année, je suis présent aux côtés de l'équipe informatique du cabinet comptable Augefi. Ma mission principale est d'améliorer le quotidient de nos collaborateur à travers la disposition de divers outils/plateformes : Web, automations, scripts, BDD...",
+		icon: <BriefcaseBusiness className="text-accent scale-150" />,
 	},
 	{
 		id: 3,

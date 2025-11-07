@@ -1,60 +1,58 @@
-import imgHTML from "../assets/techno/html.png";
-import imgCSS from "../assets/techno/css.png";
+// import imgHTML from "../assets/techno/html.png";
+// import imgCSS from "../assets/techno/css.png";
 import imgJS from "../assets/techno/js.png";
 import imgTYPE from "../assets/techno/typescript.svg";
 import imgREACT from "../assets/techno/react.png";
 import imgNODE from "../assets/techno/node-js.png";
-import imgNEXT from "../assets/techno/next-js.webp";
-import imgPRISMA from "../assets/techno/prisma.webp";
+// import imgNEXT from "../assets/techno/next-js.webp";
+// import imgPRISMA from "../assets/techno/prisma.webp";
+import imgPYTHON from "../assets/techno/python.png";
+import imgJAVA from "../assets/techno/java.png"
+import imgPHP from "../assets/techno/php.png"
+import imgDOCKER from "../assets/techno/docker.png"
+import imgLINUX from "../assets/techno/linux.png"
 
-import google from "../assets/companies/google.png";
-import meta from "../assets/companies/meta.webp";
-import amazon from "../assets/companies/amazon.png";
+
+import augefi from "../assets/companies/augefi.png";
+import formasuite from "../assets/companies/formasuite.png";
+
 
 export const skills = [
-	{ id: 1, name: "HTML", image: imgHTML },
-	{ id: 2, name: "CSS", image: imgCSS },
-	{ id: 3, name: "JavaScript", image: imgJS },
-	{ id: 4, name: "TypeScript", image: imgTYPE },
-	{ id: 5, name: "React", image: imgREACT },
-	{ id: 6, name: "Node.js", image: imgNODE },
-	{ id: 7, name: "Express.js", image: imgNODE },
-	{ id: 8, name: "Python", image: imgNEXT },
-	{ id: 9, name: "Java", image: imgPRISMA },
+	{ id: 1, name: "JavaScript", image: imgJS },
+	{ id: 2, name: "TypeScript", image: imgTYPE },
+	{ id: 3, name: "React", image: imgREACT },
+	{ id: 4, name: "Node/Express.js", image: imgNODE },
+	{ id: 5, name: "PHP", image: imgPHP },
+	{ id: 6, name: "Python", image: imgPYTHON },
+	{ id: 7, name: "Java", image: imgJAVA },
+	{ id: 8, name: "Docker", image: imgDOCKER },
+	{ id: 9, name: "Linux", image: imgLINUX },
 ];
 
 export const experiences = [
 	{
 		id: 1,
-		role: "Software Engineer",
-		company: "Google",
-		period: "Sep 2022 - Présent",
+		role: "Alternant Développeur",
+		company: "Augefi",
+		period: "Oct 2024 - Présent",
 		description: [
-			"Développement de nouvelles fonctionnalités pour Google Maps.",
-			"Optimisation des performances de l'application.",
+			"Développement d'une plateforme WEB pour l'intranet",
+			"Mise en place de bases de données MySQL",
+			"Automatisations de tâches collaborateurs avec Python",
+			"Automatisations de processus avec PowerAutomate",
 		],
-		image: google,
+		image: augefi,
 	},
 	{
 		id: 2,
-		role: "Fullstack Developer",
-		company: "Meta",
-		period: "Jan 2021 - Août 2022",
+		role: "Stagiaire Développeur",
+		company: "Formasuite",
+		period: "Juin 2023 - Août 2023",
 		description: [
-			"Création d'une plateforme interne de collaboration pour les équipes.",
-			"Mise en place d'une architecture scalable et optimisée.",
+			"Création d'une page 'Dernières places' sur le site web.",
+			"Gestion d'une nouvelle feature dans la code base javascript",
+			"Creation d'une table dans une base de donnée MySQL",
 		],
-		image: meta,
-	},
-	{
-		id: 3,
-		role: "Frontend Developer",
-		company: "Amazon",
-		period: "Mai 2019 - Déc 2020",
-		description: [
-			"Développement d'une interface utilisateur pour Amazon Web Services.",
-			"Implémentation des tests unitaires et E2E.",
-		],
-		image: amazon,
+		image: formasuite,
 	},
 ];

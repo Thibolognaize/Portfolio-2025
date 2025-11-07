@@ -5,9 +5,9 @@ import { Github, Video } from "lucide-react"
 
 const Projects = () => {
   return (
-		<div className="mt-10" id="Projects">
+		<div className="pt-20" id="Projects">
 			<Title title="Projects" />
-			<div className="grid md:grid-cols-3  gap-4">
+			<div className="grid md:grid-cols-3 gap-4">
 				{projects.map((project) => (
 					<div
 						key={project.id}
@@ -23,7 +23,7 @@ const Projects = () => {
 						</div>
 						<div className="flex flex-wrap gap-2 my-3">
 							{project.technologies.map((tech) => (
-								<span className="badge badge-accent badge-sm">
+								<span key={tech} className="badge badge-accent badge-sm">
 									{tech}
 								</span>
 							))}

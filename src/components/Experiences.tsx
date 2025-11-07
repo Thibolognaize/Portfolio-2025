@@ -4,7 +4,7 @@ import { skills, experiences } from "../data/experiences";
 
 const Experiences = () => {
   return (
-		<div id="Experiences">
+		<section className="mt-10" id="Experiences">
 			<Title title="Experiences" />
 			<div className="flex flex-col-reverse md:flex-row justify-center items-center">
 				<div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
@@ -26,7 +26,7 @@ const Experiences = () => {
                     {experiences.map((experience) => (
                         <div key={experience.id} className="flex flex-col bg-base-200 p-5 rounded-xl shadow-lg">
                             <div className="flex items-center">
-                                <img src={experience.image} alt={experience.company} className="object-cover h-10 w-10"/>
+                                <img src={experience.image} alt={experience.company} className="object-cover h-15 w-15"/>
                                 <div className="ml-4">
                                     <h1 className="text-xl text-accent font-bold">
                                         {experience.role} - {experience.company}
@@ -43,7 +43,7 @@ const Experiences = () => {
                     ))}
                 </div>
 			</div>
-		</div>
+		</section>
   );
 }
 

@@ -2,7 +2,7 @@ import { Bot } from "lucide-react";
 
 const Navbar = () => {
 	return (
-		<div className="flex justify-center md:justify-between item-center p-4">
+		<header className="flex justify-center md:justify-between item-center p-4">
 			<a
 				className="flex items-center font-bold text-3xl md:text-xl gap-0.5"
 				href="#">
@@ -33,7 +33,7 @@ const Navbar = () => {
 					</a>
 				</li>
 			</ul>
-		</div>
+		</header>
 	);
 };
 

@@ -4,9 +4,9 @@ import { aboutSection } from "../data/about";
 
 const About = () => {
   return (
-		<div className="bg-base-300 p-10 mb-10 md:pb-32" id="About">
+		<section className="bg-base-300 py-32" id="About">
 			<Title title="À propos" />
-			<div className="md:h-screen flex justify-center items-center">
+			<div className="flex justify-center items-center">
 				<div className="hidden md:block">
 					<img
 						src={img}
@@ -32,7 +32,7 @@ const About = () => {
                     ))}
                 </div>
 			</div>
-		</div>
+		</section>
   );
 }
 
