@@ -41,6 +41,7 @@ export const experiences = [
 			"Automatisations de tâches collaborateurs avec Python",
 			"Automatisations de processus avec PowerAutomate",
 		],
+		website: "https://augefi.fr/",
 		image: augefi,
 	},
 	{
@@ -53,6 +54,7 @@ export const experiences = [
 			"Gestion d'une nouvelle feature dans la code base javascript",
 			"Creation d'une table dans une base de donnée MySQL",
 		],
+		website: "https://www.formasuite.fr/",
 		image: formasuite,
 	},
 ];

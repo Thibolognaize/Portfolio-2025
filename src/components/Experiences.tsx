@@ -26,7 +26,7 @@ const Experiences = () => {
                     {experiences.map((experience) => (
                         <div key={experience.id} className="flex flex-col bg-base-200 p-5 rounded-xl shadow-lg">
                             <div className="flex items-center">
-                                <img src={experience.image} alt={experience.company} className="object-cover h-15 w-15"/>
+                                <a href={experience.website} target="_blank"><img src={experience.image} alt={experience.company} className="object-cover h-15 w-15"/></a>
                                 <div className="ml-4">
                                     <h1 className="text-xl text-accent font-bold">
                                         {experience.role} - {experience.company}
