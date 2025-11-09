@@ -12,7 +12,7 @@ export const aboutSection = [
 		id: 2,
 		title: "Alternant Dev FullStack chez Augefi",
 		description:
-			"Depuis plus d'une année, je suis présent aux côtés de l'équipe informatique du cabinet comptable Augefi. Ma mission principale est d'améliorer le quotidient de nos collaborateur à travers la disposition de divers outils/plateformes : Web, automations, scripts, BDD...",
+			"Depuis plus d'une année, je suis présent aux côtés de l'équipe informatique du cabinet comptable Augefi. Ma mission principale est d'améliorer le quotidient de nos collaborateur à travers la disposition de divers outils/plateformes: Web, automations, scripts, BDD...",
 		icon: <BriefcaseBusiness className="text-accent scale-150" />,
 	},
 	{

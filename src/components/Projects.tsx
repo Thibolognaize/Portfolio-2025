@@ -6,7 +6,7 @@ import { Github, Video } from "lucide-react"
 const Projects = () => {
   return (
 		<div className="pt-20" id="Projects">
-			<Title title="Projects" />
+			<Title title="Mes Projets" />
 			<div className="grid md:grid-cols-3 gap-4">
 				{projects.map((project) => (
 					<div
@@ -23,7 +23,9 @@ const Projects = () => {
 						</div>
 						<div className="flex flex-wrap gap-2 my-3">
 							{project.technologies.map((tech) => (
-								<span key={tech} className="badge badge-accent badge-sm">
+								<span
+									key={tech}
+									className="badge badge-accent badge-sm">
 									{tech}
 								</span>
 							))}
@@ -31,12 +33,14 @@ const Projects = () => {
 						<div className="flex">
 							<a
 								className="btn btn-accent w-1/3"
-								href={project.demoLink}>
+								href={project.demoLink}
+								target="_blank">
 								<Video className="w-4" />
 							</a>
 							<a
 								className="btn btn-neutral w-2/3 ml-2"
-								href={project.github}>
+								href={project.github}
+								target="_blank">
 								<Github className="w-4" />
 							</a>
 						</div>

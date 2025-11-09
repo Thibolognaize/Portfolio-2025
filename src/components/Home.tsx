@@ -21,7 +21,7 @@ const Home = () => {
 					m'efforce de repousser mes limites et d'élargir mes
 					compétences.
 				</p>
-				<a href="#" className="btn btn-accent md:w-fit">
+				<a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJvqKRXKjMCFTqSXGTpPqTfsgSfSjzjnrXFgPPMgHMFhnTcxklkZcDQnbLmzgLgKJbKgcCL" target="_blank" className="btn btn-accent md:w-fit">
 					<Mail className="w-5 h-5" />
 					Contactez-moi
 				</a>
